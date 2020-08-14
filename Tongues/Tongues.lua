@@ -437,7 +437,7 @@ end;
 					self.Settings.Character.Language = T_Darnassian
 				elseif (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") then
 					self.Settings.Character.Language = T_Draenei
-				elseif (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren") then 
+				elseif (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren") then 
 					self.Settings.Character.Language = T_Taurahe
 				elseif UnitRace("player") == BRAC["Dwarf"] then
 					self.Settings.Character.Language = T_Dwarvish
@@ -758,7 +758,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren")and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
@@ -786,7 +786,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren")and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
@@ -813,7 +813,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren") and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
@@ -840,7 +840,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren") and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
@@ -867,7 +867,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren") and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
@@ -894,7 +894,7 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or (UnitRace("player") == BRAC["Blood Elf"] or UnitRace("player") == "Void Elf") and self.Settings.Character.Language == T_Thalassian
 				or UnitRace("player") == BRAC["Night Elf"] and self.Settings.Character.Language == T_Darnassian
 				or (UnitRace("player") == BRAC["Draenei"] or UnitRace("player") == "Lightforged Draenei") and self.Settings.Character.Language == T_Draenei	
-				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "High Mountain Tauren")and self.Settings.Character.Language == T_Taurahe
+				or (UnitRace("player") == BRAC["Tauren"] or UnitRace("player") == "Highmountain Tauren") and self.Settings.Character.Language == T_Taurahe
 				or (UnitRace("player") == BRAC["Dwarf"] or UnitRace("player") == "Dark Iron Dwarf") and self.Settings.Character.Language == T_Dwarvish
 				or UnitRace("player") == BRAC["Undead"] and self.Settings.Character.Language == T_Forsaken
 				or UnitRace("player") == BRAC["Gnome"] and self.Settings.Character.Language == T_Gnomish
