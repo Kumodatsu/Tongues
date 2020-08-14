@@ -661,6 +661,49 @@ Tongues.Language[BRAC["Goblin"]].Difficulty = {
 	["Death Knight"]= 0;
 };
 
+Tongues.Language[T_Vulpera] = {
+	[1] = { "y", "o", "i" },
+	[2] = { "aw", "uk", "wa", "pa", "yy", "ii", "au", "ho", "da", "ak", "yi", "ik", "oo" },
+	[3] = { "wan", "yap", "bow", "iiy", "arf", "iyw", "hau", "gav", "woo", "aoo", "vuf", "pow" },
+	[4] = { "bhuh", "yiip", "ahee", "vuuf", "wooo", "blaf", "woef", "ghav", "bork", "guau", "yaap" },
+	[5] = { "youwn", "ouahn", "lally", "yiuwn", "hytou", "hatti", "waouh", "meong", "woooo", "wauwn" },
+	[6] = { "tchoff", "wanwan", "yipyip", "hauhau", "hattii", "baubau", "caicai", "geding" },
+	[7] = { "bhuhbuh", "grrbork", "frakaka", "wooowoo", "aheeaha" },
+	[8] = { "vuufwuff", "wuffwoef", "gheugheu", "guauguau", "borkbork", "wuffvuwn", "blafblaf" },
+	[9] = { "woefyouwn", "aheeowown", "ghavyouwn", "bhuhwauwn", "joffwauwn" },
+	[10] = { "keffgeding", "blafhauhau", "vuufhattii", "woofhauhau", "borkwanwan" }
+}
+
+Tongues.Language[T_Vulpera].Difficulty = {
+	["default"] 	    = 100;
+
+	[BFAC["Alliance"]] 	= 900;
+	[BFAC["Horde"]] 	= 0;
+
+	[BRAC["Human"]]	= 0;
+	[BRAC["Dwarf"]] 	= 0;
+	[BRAC["Gnome"]] 	= 0;
+	[BRAC["Night Elf"]] 	= 0;
+	[BRAC["Draenei"]]	= 0;
+
+	[BRAC["Orc"]]	= 0;
+	[BRAC["Troll"]]	= 0;
+	[BRAC["Undead"]]	= 0;
+	[BRAC["Tauren"]]	= 0;
+	[BRAC["Blood Elf"]]	= 0;
+
+	["Warrior"]	= 0;
+	["Rogue"]	= 0;
+	["Druid"]	= 0;
+	["Mage"]	= 0;
+	["Warlock"]	= 0;
+	["Paladin"]	= 0;
+	["Priest"]	= 0;
+	["Shaman"]	= 0;
+	["Hunter"]	= 0;
+	["Death Knight"]= 0;
+}
+
 Tongues.Language["Gilnean-CodeSpeak"]={
 [1] = {"o",},
 [2] = {"oy","oi'",},
