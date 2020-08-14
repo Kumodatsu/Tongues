@@ -17,6 +17,8 @@ T_Gutterspeak = "Gutterspeak"
 T_Taurahe="Taurahe"
 T_Thalassian="Thalassian"
 
+T_Vulpera = "Vulpera"
+
 T_Gilnean="Gilnean"
 
 T_Nether = "Nether"--something i set up for warp stalkers
@@ -92,6 +94,8 @@ T_Taurahe = "Tauren" --(needs approval)
 
 T_Thalassian = "Thalassisch" --(existed in Lore before it became an official language ;-))
 
+T_Vulpera = "Vulpera"
+
 T_Gilnean = "Gilneisch" --(no player language, since Gilnean speak only common. In the end they are human. But I prefer to use "Wolf" in shapeshifted form)
 
 
@@ -156,6 +160,7 @@ T_Gutterspeak = "Gutterspeak"
 
 T_Taurahe="Taurahe"
 T_Thalassian="Thalassian"
+T_Vulpera = "Vulpérin"
 T_Draenei = BRAC2["Draenei"]
 T_Gilnean="Gilnean"
 
