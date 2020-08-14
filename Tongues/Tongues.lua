@@ -20,7 +20,7 @@ local _,Tclass,_ = UnitClass("player")
 local Tclasses = {}
 FillLocalizedClassList(Tclasses, true)
 
-local BlizzLangs = {"Darnassian", "Pandaren","Zandali","Thalassian","Goblin","Gnomish","Taurahe","Forsaken","Dwarvish","Draenei","Demonic", "Shalassian"}
+local BlizzLangs = {"Darnassian", "Pandaren","Zandali","Thalassian","Goblin","Gnomish","Taurahe","Forsaken","Dwarvish","Draenei","Demonic", "Shalassian","Vulpera"}
 
 
 --===============================================MAIN===================================================--
@@ -458,6 +458,8 @@ end;
 					self.Settings.Character.Language = "Shalassian"
 				elseif UnitRace("player") == "Pandaren" then
 					self.Settings.Character.Language = "Pandaren"
+				elseif UnitRace("player") == "Vulpera" then
+					self.Settings.Character.Language = T_Vulpera
 				end;
 				self.Settings.Character.Fluency[self.Settings.Character.Language] = Tongues_Character.Fluency[self.Settings.Character.Language] or 100
 
@@ -764,7 +766,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg , chatType, language, channel);
@@ -791,7 +794,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg , "GUILD", language, channel);
@@ -817,7 +821,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg , "OFFICER", language, channel);
@@ -843,7 +848,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg ,"RAID", language, channel);
@@ -869,7 +875,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg ,"RAID_WARNING", language, channel);
@@ -895,7 +902,8 @@ HandleSend = function(self, msg, chatType, langID, language, channel)--HANDLE TE
 				or UnitRace("player") == BRAC["Worgen"] and self.Settings.Character.Language == "Gilnean-CodeSpeak"
 				or UnitRace("player") == BRAC["Goblin"] and self.Settings.Character.Language == BRAC["Goblin"]
 				or UnitRace("player") == "Nightborne" and self.Settings.Character.Language == "Shalassian"
-				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren" then
+				or UnitRace("player") == "Pandaren" and self.Settings.Character.Language == "Pandaren"
+				or UnitRace("player") == "Vulpera" and self.Settings.Character.Language == T_Vulpera then
 					language = nil
 				end;
 				self.Hooks.Send(msg , "INSTANCE_CHAT", language, channel);
@@ -1726,7 +1734,8 @@ end		]]
 			language == T_Taurahe or
 			language == T_Thalassian or
 			language == BRAC["Goblin"] or
-			language == "Pandaren" then
+			language == "Pandaren" or
+			language == T_Vulpera then
 				return true
 			end;
 		end;
